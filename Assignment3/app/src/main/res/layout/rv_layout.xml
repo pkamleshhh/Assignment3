@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/tv_splash_padding"
+    android:background="@drawable/tv_splash_border"
+    >
+
+    <TextView
+        android:id="@+id/tv_rv_student_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tv_rv_name"
+        android:layout_marginStart="@dimen/border_width"
+        android:text="Name"
+        />
+
+    <TextView
+        android:id="@+id/tv_rv_student_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tv_rv_class"
+        android:layout_marginTop="@dimen/tv_splash_padding"
+        android:layout_marginStart="@dimen/border_width"
+        android:text="class"
+        />
+
+
+</LinearLayout>

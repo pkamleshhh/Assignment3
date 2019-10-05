@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tb_home"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/green">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/disabled"
+            android:textSize="@dimen/tv_toolbar_text_size"
+            tools:text="@string/home" />
+
+        <ImageButton
+            android:id="@+id/ib_toolbar_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/ml_sort_home"
+            android:layout_toEndOf="@+id/tv_toolbar_title"
+            android:background="@drawable/ic_sort"
+            android:gravity="center_horizontal" />
+
+        <ImageButton
+            android:id="@+id/ib_toolbar_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/ml_list_home"
+            android:layout_toEndOf="@+id/ib_toolbar_sort"
+            android:background="@drawable/ic_grid"
+            android:gravity="center_horizontal" />
+
+    </RelativeLayout>
+</androidx.appcompat.widget.Toolbar>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+    <string name="tv_splash">Assignment</string>
+    <string name="home">Home</string>
+    <string name="et_hint_studen_tname">Student Name</string>
+    <string name="classs">Class</string>
+    <string name="roll_no">Roll No.</string>
+    <string name="submit">Submit</string>
+    <string name="add_student">Add Student</string>
+    <string name="view">View</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="emptylist">There are no items in the list.</string>
+    <string name="tb_view_student">View Student</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="title_tb_edit">Edit Details</string>
+    <string name="name">Name</string>
+    <string name="rollno">RollNo</string>
+    <string name="back_btn_view">Go Back</string>
+    <string name="btn_set_change">Set Changes</string>
+    <string name="empty_message">Please fill this field.</string>
+    <string name="valid_name_error_msg">Enter a valid name</string>
+    <string name="lessthan12_error_msg">Class Should Be Less Than 12</string>
+    <string name="class_error_msg">Enter Proper Class</string>
+    <string name="proper_roll_no">Enter Proper Roll No</string>
+</resources>

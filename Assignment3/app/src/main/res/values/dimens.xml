@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_splash">30dp</dimen>
+    <dimen name="border_width">15dp</dimen>
+    <dimen name="tv_splash_padding">8dp</dimen>
+    <dimen name="tv_splash_text_size">30sp</dimen>
+    <dimen name="tv_toolbar_text_size">25sp</dimen>
+    <dimen name="ml_sort_home">70dp</dimen>
+    <dimen name="ml_list_home">10dp</dimen>
+    <dimen name="ts_et_add_student">20sp</dimen>
+    <dimen name="mt_btn_add_student">14dp</dimen>
+    <dimen name="tv_rv_class">18sp</dimen>
+    <dimen name="tv_rv_name">22sp</dimen>
+    <dimen name="border_width_thin">3dp</dimen>
+    <dimen name="mt_dialog_layout">3dp</dimen>
+    <dimen name="width_dialog_buttons">230dp</dimen>
+    <dimen name="mt_rv">60dp</dimen>
+    <dimen name="wd_1">1dp</dimen>
+    <dimen name="wd_2">2dp</dimen>
+</resources>
