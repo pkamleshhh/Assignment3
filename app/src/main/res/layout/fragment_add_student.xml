@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AddStudentFragment"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/border_width"
+            android:paddingLeft="@dimen/border_width"
+            android:paddingRight="@dimen/border_width">
+            <EditText
+                android:id="@+id/et_student_name_add_student"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_selector"
+                android:hint="@string/et_hint_studen_tname"
+                android:padding="@dimen/ml_list_home"
+                android:textSize="@dimen/tv_rv_class"/>
+
+            <EditText
+                android:id="@+id/et_class_add_student"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_student_name_add_student"
+                android:layout_marginTop="@dimen/ml_list_home"
+                android:background="@drawable/edittext_selector"
+                android:hint="@string/classs"
+                android:maxLength="12"
+                android:padding="@dimen/ml_list_home"
+                android:textSize="@dimen/tv_rv_class" />
+
+            <EditText
+                android:id="@+id/et_rollno_add_student"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_class_add_student"
+                android:layout_marginTop="@dimen/ml_list_home"
+                android:background="@drawable/edittext_selector"
+                android:hint="@string/roll_no"
+                android:padding="@dimen/ml_list_home"
+                android:textSize="@dimen/tv_rv_class" />
+
+            <Button
+                android:id="@+id/btn_submit_add_student"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_rollno_add_student"
+                android:layout_marginLeft="@dimen/border_width"
+                android:layout_marginTop="@dimen/mt_btn_add_student"
+                android:layout_marginRight="@dimen/border_width"
+                android:background="@drawable/btn_selector"
+                android:text="@string/submit"
+                android:textColor="@color/green" />
+
+        </RelativeLayout>
+</FrameLayout>
